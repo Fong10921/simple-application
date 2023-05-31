@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Sans+Pro&display=swap");
+
+:root {
+  /* CSS HEX */
+  --moonstone: #46b1c9ff;
+  --non-photo-blue: #84c0c6ff;
+  --ash-gray: #9fb7b9ff;
+  --ash-gray-2: #bcc1baff;
+  --almond: #f2e2d2ff;
+  --red: #a51818;
+  --red-dark: #7a1313;
+  --purple-light: rgb(140, 0, 255);
+  --purple-dark: rgb(79, 10, 190);
+
+  /* CSS HSL */
+  --moonstone: hsla(191, 55%, 53%, 1);
+  --non-photo-blue: hsla(185, 37%, 65%, 1);
+  --ash-gray: hsla(185, 16%, 67%, 1);
+  --ash-gray-2: hsla(103, 5%, 74%, 1);
+  --almond: hsla(30, 55%, 89%, 1);
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.header {
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  z-index: 100;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.header-container {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body {
+  background-color: var(--almond);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.header a {
+  color: white;
+  font-size: 3rem;
+  text-decoration: none;
+  margin-left: 2rem;
+}
+
+.navbar a {
+  margin-left: 3rem;
+  margin-right: 1rem;
+  font-size: 2.5rem;
+}
+
+h1 {
+  font-size: 3.6rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.btn {
+  padding: 1.5rem 3rem;
+  background-color: var(--red);
+  border: none;
+  color: white;
+  border: 1px solid var(--red);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+
+.btn-alt {
+  background-color: transparent;
+  border-color: transparent;
+  color: black;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+
+.btn:hover {
+  background-color: var(--red-dark);
+  border-color: var(--red-dark);
+}
+
+.btn-alt:hover {
+  background-color: rgb(106, 87, 212);
+  border-color: transparent;
+}
